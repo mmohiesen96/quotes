@@ -1,5 +1,7 @@
 package quotes;
 
+import java.awt.image.BufferedImage;
+import java.io.BufferedReader;
 import java.util.Arrays;
 
 public class Quote {
@@ -14,7 +16,6 @@ public class Quote {
         this.likes = likes;
         this.text = text;
     }
-
 
     @Override
     public String toString() {
